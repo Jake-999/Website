@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+    <meta name="author" content="Jake Elliott" >
+    <meta name="Keywords" content="C++, cplu plus, c++ basics">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/challange.css">
+        <link rel="stylesheet" href="../CSS/nav.css">
+</head>
+<nav>
+    <ul>
+        <li><a href="../Main Page/index.html">home</a></li>
+        <li><a href="../Pages/Basics.html">Basics</a></li>
+        <li><a href="../Pages/Information.html">information</a></li>
+        <li><a href="../Pages/input&output.html">input and output</a></li>
+        <li><a href="../Pages/Classes.html">classes</a></li>
+        <li><a href="../Pages/Challanges.html">challanges</a></li>
+        <li><a href="../Pages/Functions.html">Function</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+</nav>
+    <body>
+        <h1>You will be able to parcipate in coding challanges for learning c++.</h1>
+        <section id="1">
+            <h1>Challange 1</h1>
+            <h1>Your first challange is to create a script that outputs "Hello World".</h1>
+            <p>To pass this test you will need to use cout.</p>
+            <p>You can either use "using namespace std;" or "std::cout" they both work the same.</p>
+            <a href="https://repl.it/~">Click here to start the challange <------</a>
+            <p>Create a repl for c++ and start your challange.</p>
+            <p>Click the button to reveal the answer:</p>
+            <p id="answer">std::cout << "Hello World" << endl;</p>
+            <button id="A1" onclick="Main()">click</button>
+            <br>
+            <h1>
+                Challange 2
+            </h1>
+            <p>You have learnt how to output a fixed sting but now you need to lean how to output a static string</p>
+            <p>n this challanae we will be anouncing the string value in the variable declare.</p>
+            <p>to do this get your variable and use = "Hello world" at the end of the variable decleration.</p>
+            <a href="https://repl.it/~">Click here to start the challange <------</a>
+            <br>
+            <p>Click the button to see the answer:</p>
+            <br>
+            <section id="answer2">
+            <p>string a = "Hello World";</p>
+            <p>
+                int Main(){
+            </p>
+            <p>cout << a << endl;</p>
+            <p>}</p>
+            </section>
+            <button onclick="Answer2()">Click</button>
+            <br>
+            <h1>Challange 3</h1>
+                <p>So now that you have learnt to output some text he next step is to learn how to input some data frm the user.</p>
+                <p>this next challange is to get input fomr the user and output it onto the screen.</p>
+            <p>to help you with this the main function in which you should use is cin>> and cout<<, rember that it does matter in which the way the symbols are facing when using cout and cin.</p>
+            <a href="https://repl.it/~">Click here to start the challange <------</a>
+            <p>In this challange you will need to getinput from the user and then output it in a cout statment.</p>
+            <br>
+            <section id="answer3">
+               <p>string name;</p>
+               <p>int Main(){</p>
+                <p>cin>>name;</p>
+                <p>cout << name <<endl;</p>
+                <p>}</p>
+            </section>
+            <button onclick="Answer3()">Click</button>
+            <br>
+            <h1>Challange 3</h1>
+            <p>You ave now learn how to output and input so now we will create a type of calculator using your knwoledge.</p>
+            <p>in this instance we will only be using +.</p>
+            <p>we will get user input and add two numbers together.</p>
+            <p>declare 2 int variables.</p>
+            <p>ask the userfor input for bth and then coutthe answer.</p>
+            <section id="answer4">
+                <p>int a;</p>
+                <p>int b;</p>
+                    <p>cin>>a;</p>
+                    <p>cin>>b;</p>
+                    <p>cout << a+b << endl;</p>
+                <p>}</p>
+            </section>
+            <button onclick="Answer4()">Click</button>
+            <script>
+                function Main(){
+                   var answer = document.getElementById('answer');
+                    answer.style.backgroundColor = 'white';
+                    console.log(answer.style.backgroundColor);
+                }
+                function Answer2(){
+                    var answer2 = document.getElementById('answer2');
+                    answer2.style.backgroundColor = 'white';
+                    console.log(answer2.style.backgroundcolor);
+                }
+                function Answer3(){
+                    var aswer3 = document.getElementById('answer3');
+                    answer3.style.backgroundColor = 'White';
+                    console.Log(answer3.style.backgroundcolor);
+                }
+                function Answer4(){
+                    var asnwer4 = document.getElementById('answer4');
+                    answer4.style.backgroundColor = 'white';
+                    console.log(answer.style.backgroundColor);
+                }
+            </script>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#answer{
+    border-width: 50px;
+    border-color: green;
+    background-color: black;
+}
+p{
+    font-size: 30px;
+}
+#answer2{
+    border-width: 50px;
+    border-color: green;
+    background-color: black;
+}
+#answer3{
+    border-width: 50p;
+    border-color: green;
+    background-color: black;
+}
+#answer4{
+    border-width: 50px;
+    border-color: green;
+    background-color: black;
+}

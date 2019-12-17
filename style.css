@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: 'Baskervville', serif;
+    font-size: 40px;
+  }
+  .cplusplus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  img{
+      height: 250px;
+      width: 100%;
+  }
+  #Information{
+      font-size: 20px;
+  }
+  p{
+      font-size: 30px;
+  }

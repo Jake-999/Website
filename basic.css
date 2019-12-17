@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-size: 60px;
+}
+.code{
+    border-style: hidden;
+    border: inherit;
+    background-color: rgb(218, 218, 218);
+    border-width: 10px;
+    width: 600px;
+}
+p{
+    font-size: 30px;
+}

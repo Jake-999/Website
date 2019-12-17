@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+    <meta name="author" content="Jake Elliott" >
+    <meta name="Keywords" content="C++, cplu plus, c++ basics">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="../CSS/i&o.css">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    </head>
+    <nav>
+        <ul>
+            <li><a href="../Main Page/index.html">home</a></li>
+        <li><a href="../Pages/Basics.html">Basics</a></li>
+        <li><a href="../Pages/Information.html">information</a></li>
+        <li><a href="../Pages/input&output.html">input and output</a></li>
+        <li><a href="../Pages/Classes.html">classes</a></li>
+        <li><a href="../Pages/Challanges.html">challanges</a></li>
+        <li><a href="../Pages/Functions.html">Function</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        </ul>
+    </nav>
+    <body>
+        <h1>The basics of input and output in c++</h1>
+        <section>
+            <h1>What is input?</h1>
+            <p>Input is data put in by the user and then used in the function, or stored in a variable.</p>
+            <p>Examples of input: </p>
+            <p>Databases use input from the user and then they get stored in a datacenter form later being reused.</p>
+            <p>When you sign up for a account you have to put in some input to be able to personlise the account to you.</p>
+            <p>When you type on your keyboard the keys you push are input and are stored in the computer files.</p>
+            <p>When you are asked to input some data that is a type of input.</p>
+        </section>
+        <br>
+        <section>
+            <h1>So how do i get iput from the user in c++?</h1>
+            <p>In the c++ there are many ways of getting input from the user this isnclude different data types and different functions.</p>
+            <p>The main one that we will be focusing on is: </p>
+            <p>cin >> a //a is the variable name it can be anything.</p>
+            <p>The main thing to focus on is the <a href="https://www.w3schools.com/cpp/cpp_user_input.asp" target="_Blank" id="Important">"cin"</a> call as it is the most basic but most easy type of input in c++.</p>
+            <p>The cin call has one <a href="https://www.w3schools.com/cpp/cpp_function_param.asp" target="_Blank"id="Important">"parameter"</a> which is the variable that the input is going ot be stored in.</p>
+            <p>Thiscan be any variable, but if the data tpye is a string and your input is a interger then you will not be able to se your inpu as ainterger but as a string. Same goes for if your input type is a dube and your vriable is a data tye of a float if the data type is not equal to the input typoe then you ill get a debuging error.</p>
+            <p>What a good input looks like: </p>
+            <br>
+            <p>int a;</p>
+            <p>int b;</p>
+            <br>
+            <p>int Main () {</p>
+                <p>cin >> a;</p>
+                <p>cin >> b;</p>
+                <p>return (b+a);</p>
+                <p>}</p>
+                <p>This will return the inout from a and b thrn add them together and output the result.</p>
+                <p>This works as the data type of the variables is equal too the input type of the input type.</p>
+                <a href="https://repl.it/@jakeelliott/Input" target="_Blank">Click here to see working code <----</a>
+                <br>
+                <p>Here is an example of not working code: </p>
+                <p>int a;</p>
+                <p>string b;</p>
+                <p>int Main(){</p>
+                    <p>cin>>a;</p>
+                    <p>cin>>b;</p>
+                    <p>return (a + b);</p>
+                    <p>}</p>
+                    <p>This will not work as a is a interger and b is a string and strings cannot be parsed as intergers without toInt().</p>
+                    <img id="Notwokring" src="../Images/notworking.png" alt="Notr working c++ code">
+                        <p>There is a redline under the "a + b" this is due to the data tpyes of the variables as a string is not able to be parsed as an interger.</p>
+                </section>
+                <section>
+                    <h1>What is ouput?</h1>
+                    <p>Output in c++ is the way in which c++ code comunicates to the user.</p>
+                    <p>Outut is something that u can see or use in code.</p>
+            <p>Examples of output: </p>
+            <p>When you push down on a key and the key shows up on your screen that is a form of output.</p>
+            <p>When u create an account and see your username on the screen this is a type of output.</p>
+            <p>When you are watching a movie and the screen changes color that is a form of output from the pixels on the screen.</p>
+                    <br>
+                    <p>In c++ there are many ways in which you are able to output something.</p>
+                    <a>The main way is either printf() or using <a href="https://www.w3schools.com/cpp/cpp_output.asp" target="_Blank" id="Important">cout</a><<;</p>
+                    <p>An example of a succesful output code: </p>
+                    <p>int string a = "Hello world";</p>
+                    <p>int Main(){</p>
+                        <p>cout>>a;</p>
+                        printf(string, a);
+                        <p>}</p>
+                        <p>The use of cout and printf are the same but with printf you have two parameters, one being the datya type and the other being the data being outputted.</p>
+                        <a href="https://repl.it/@jakeelliott/output" target="_Blank">Click here to see a working output script <-----</a>
+                        <p>You are also able to output any type od data type such as: string, interger, float, double, cout is the easet way of outputting something in your code.</p>
+                        <p>The only syntax you need to know is that with cout you have to have the less than and greater than sign facin the right way so in cout you will have to use the les than sign (<<), and if you use a greater than (>>) sign you will get a syntax error as it is outputing what is inbetween the symbols and not inputing the the data.</p>
+                </section>
+    </body>
+    
+</html>
